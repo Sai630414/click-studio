@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Studio - Capture Your Moments</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic styling for a clean white theme */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fff;
+        }
+        header, .services, .portfolio, .testimonials, .contact {
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f4f4f4;
+            padding: 20px 10%;
+        }
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .hero {
+            background-color: #eaeaea;
+            padding: 50px 10%;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .hero .cta-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .services, .portfolio, .testimonials, .contact {
+            padding: 50px 10%;
+        }
+        .services h2, .portfolio h2, .testimonials h2, .contact h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .service-item {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .service-item img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .service-item h3 {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        .service-item p {
+            font-size: 16px;
+            color: #555;
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .portfolio-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .testimonial {
+            max-width: 500px;
+            margin: 20px auto;
+            font-style: italic;
+            color: #555;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="logo-container">
+        <img src="logo.jpg" alt="Photo Studio Logo" class="logo">
+        <span class="studio-name">CLICK STUDIO</span>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1>Capture Your Moments</h1>
+    <p>Professional photography for every occasion</p>
+    <a href="#contact" class="cta-btn">Book Now</a>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-item">
+        <img src="wedding.jpg" alt="Wedding Shoot">
+        <h3>Wedding Shoot</h3>
+        <p>Starting at $500</p>
+    </div>
+    <div class="service-item">
+        <img src="birthday.jpg" alt="Birthday Shoot">
+        <h3>Birthday Shoot</h3>
+        <p>Starting at $300</p>
+    </div>
+    <div class="service-item">
+        <img src="family.jpg" alt="Family Portrait">
+        <h3>Family Portrait</h3>
+        <p>Starting at $400</p>
+    </div>
+</section>
+0
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio">
+    <h2>Our Portfolio</h2>
+    <p>Browse through our collections by clicking on each type of shoot below.</p>
+    <div class="portfolio-links">
+        <a href="https://drive.google.com/drive/folders/1Mqzwrz1OkYpE0OcF1u0q6LJQico0_0Ii?usp=drive_link" target="_blank" class="portfolio-item">Wedding Shoot</a>
+        <a href="https://drive.google.com/drive/folders/1ulMVabeJ2U7JMSY6sa6wd6KRTUlqRuD3?usp=drive_link" target="_blank" class="portfolio-item">Baby Shower Shoot</a>
+        <a href="https://drive.google.com/drive/folders/1fv9i6FrDnswpu5DBgBkdu8p7bmc0CCZP?usp=drive_link" target="_blank" class="portfolio-item">Family Shoot</a>
+        <a href="https://drive.google.com/drive/folders/1FwprSPcw_CRkySWdoZYUrRnTIs8n-_x7?usp=drive_link" target="_blank" class="portfolio-item">Graduation Shoot</a>
+        <!-- Add more links as needed -->
+    </div>
+</section>
+
+
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+        <p>"They captured our wedding day perfectly! The photos are stunning. Highly recommend!"</p>
+        <p>- Sarah W.</p>
+    </div>
+    <div class="testimonial">
+        <p>"Amazing experience! My son's birthday photoshoot was so much fun and the pictures are beautiful."</p>
+        <p>- Jason L.</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Your Phone" required>
+        <textarea placeholder="Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <div class="social-icons">
+        <p>Follow us:</p>
+        <a href="https://www.instagram.com/sai_.reddy05/">Instagram</a> |
+        <a href="#">Facebook</a> |
+        <a href="#">Twitter</a>
+    </div>
+</section>
+<script src="scripts.js"></script>
+
+</body>
+</html>

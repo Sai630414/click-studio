@@ -1,0 +1,204 @@
+/* Basic styling for a clean white theme */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+}
+
+
+
+header, .services, .portfolio, .testimonials, .contact {
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px 10%;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+/* Style for the logo container */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the logo */
+.logo {
+    width: 50px; /* Adjust this size as needed */
+    height: auto;
+    margin-right: 10px; /* Spacing between logo and studio name */
+}
+
+/* Style for the studio name */
+.studio-name {
+    font-size: 24px;  /* Adjust size as needed */
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.hero {
+    background-color: #eaeaea;
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hero .cta-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.hero .cta-btn:hover {
+    background-color: #555;
+}
+
+.services, .portfolio, .testimonials, .contact {
+    padding: 50px 10%;
+}
+
+.services h2, .portfolio h2, .testimonials h2, .contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.service-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.service-item img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.service-item img:hover {
+    transform: scale(1.05);
+}
+
+.service-item h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+.portfolio-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.portfolio-item {
+    font-size: 18px;
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.portfolio-item:hover {
+    background-color: #555;
+}
+
+
+
+.testimonial {
+    max-width: 500px;
+    margin: 20px auto;
+    font-style: italic;
+    color: #555;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: #007bff;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
